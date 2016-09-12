@@ -257,13 +257,13 @@
             <serializer type-class="exp.hazelcast.app.Customer" class-name="exp.hazelcast.app.CustomerStreamSerializer" />
         </serializers>
     </serialization>-->
-    <serialization>
+    <!--<serialization>
         <data-serializable-factories>
             <data-serializable-factory
                     factory-id="1">exp.hazelcast.app.CustomerDataSerializableFactory
             </data-serializable-factory>
         </data-serializable-factories>
-    </serialization>
+    </serialization>-->
 
 
     <services enable-defaults="true"/>
