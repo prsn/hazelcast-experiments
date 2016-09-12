@@ -1,6 +1,5 @@
 # Stream Page Supplier for Hazelcast IMap
 
-![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)
 
 Stream Page Supplier wraps a Hazelcast IMap in a stream (java 8) and allow user t to access data in using stream API. Hazelcast IMap inherits from java.util.concurrent.ConcurrentMap but does not offer stream API to work over collection. This is a small endavour to offer stream based processing of Hazelcast IMap. Follwoings are the objectives that this supplier solved
 
@@ -22,5 +21,3 @@ License
 
 MIT
 
-
-**Free Software, Hell Yeah!**
